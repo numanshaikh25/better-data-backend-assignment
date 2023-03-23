@@ -3,9 +3,9 @@ from jinja2 import Template
 from pathlib import Path
 # Initialize FastAPI-Mail instance
 conf = ConnectionConfig(
-        MAIL_USERNAME = "testcrinitis@gmail.com",
-        MAIL_PASSWORD = "cbmunwumrypewhjz",
-        MAIL_FROM = "testcrinitis@gmail.com",
+        MAIL_USERNAME = "*",
+        MAIL_PASSWORD = "*",
+        MAIL_FROM = "*",
         MAIL_PORT = 587,
         MAIL_SERVER = "smtp.gmail.com",
         MAIL_STARTTLS=True,
